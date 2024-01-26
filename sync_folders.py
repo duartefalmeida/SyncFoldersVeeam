@@ -10,9 +10,9 @@ def sync(src, repl, log_file):
     repl folder will exactly match content of the src folder
 
     Arguments:
-    src      – source folder path
-    repl     – replica folder path
-    log_file – file where replication/update/remove operations are logged
+    src      - source folder path
+    repl     - replica folder path
+    log_file - file where replication/update/remove operations are logged
 
     """
     # List folders source and replica content or create empty folders them if they don't exist
